@@ -5,9 +5,31 @@
   width: 1024px;
   height: 768px;
   margin: 0 auto;
+  /*display: table;*/
+  position: relative;
+}
+
+.wrappers {
+/**/
 }
 
 .wrapper-content {
   background-color: cyan;
   border: 2px solid black;
+  /*display: table-cell;*/
+  /*vertical-align: middle;*/
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
+
+/*.wrapper-inner-table {
+  background-color: magenta;
+  border: 1px solid black;
+  width: 60px;
+}*/

@@ -1,0 +1,13 @@
+.wrapper {
+  background-color: orange;
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 1024px;
+  height: 768px;
+  margin: 0 auto;
+}
+
+.wrapper-content {
+  background-color: cyan;
+  border: 2px solid black;
+}
